@@ -5,7 +5,7 @@ let vidamaxima = 100;
         vida -= danoporespada;
         
         if (vida > 0) {
-            console.log("Vida restante: " + vida + ". O personagem ainda está vivo!");
+            console.log("Vida restante: " + vida + ". O personagem ainda está vivo");
         } else {
-            console.log("Vida restante: " + vida + ". O personagem foi derrotado!");
+            console.log("Vida restante: " + vida + ". O personagem foi derrotado");
         }
